@@ -1,0 +1,30 @@
+{
+  "name": "viphuaxin-WCS",
+  "version": "1.0.0",
+  "description": "微信多客服系统 for mac",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "repository": "https://github.com/viphuaxin/customer-services",
+  "keywords": [
+    "wechat",
+    "customer-services",
+    "viphuaxin"
+  ],
+  "build": {
+    "productName": "一番花信 WCS",
+    "appId": "com.viphuaxin.wechat-customer-services.app",
+    "mac": {
+      "category": "customer-services.app.wechat",
+      "identity": null
+    }
+  },
+  "author": "overtrue",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.6.2"
+  }
+}
